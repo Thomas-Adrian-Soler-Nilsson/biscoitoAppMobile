@@ -1,10 +1,41 @@
 <h1 align="center">🍪 BiscoitoAppMobile</h1>
-<p align="center">Um aplicativo móvel desenvolvido em <b>React Native</b> e <b>Expo</b> que gera frases aleatórias — como um verdadeiro <b>biscoito da sorte digital!</b> Cada toque no botão revela uma nova mensagem inspiradora ou divertida ✨</p>
-🌐 Demonstração Online: 👉 <b><a href="https://biscoito-app-mobile-skof.vercel.app/?classId=81da0d39-74da-49e2-9f37-faf10b905f16&assignmentId=234c869c-d002-4ebf-9cc2-d78b6d163e29&submissionId=fb2b6946-4a47-bfa9-69e5-6467000491be">BiscoitoAppMobile - Deploy na Vercel</a></b>
-✨ Funcionalidades: ✅ Exibe frases aleatórias de “biscoito da sorte”. ✅ Interface simples, moderna e intuitiva. ✅ Atualização instantânea da frase ao clicar no botão. ✅ Desenvolvido com <b>React Native</b> e <b>Expo</b>, compatível com Android e iOS.
-🛠️ Tecnologias Utilizadas: | Tecnologia | Descrição | |-------------|------------| | ⚛️ <b>React Native</b> | Framework para desenvolvimento mobile multiplataforma | | 📱 <b>Expo</b> | Plataforma para facilitar o build e testes de apps React Native | | 💻 <b>JavaScript / JSX</b> | Linguagem e sintaxe base do projeto |
-🚀 Como Executar o Projeto Localmente: 1️⃣ Clone o repositório: <code>git clone https://github.com/Thomas-Adrian-Soler-Nilsson/biscoitoAppMobile.git</code> 2️⃣ Acesse a pasta do projeto: <code>cd biscoitoAppMobile</code> 3️⃣ Instale as dependências: <code>npm install</code> ou <code>yarn install</code> 4️⃣ Execute o app com o Expo: <code>npx expo start</code> 📲 Escaneie o QR Code com o aplicativo Expo Go no seu celular para rodar o app.
-📁 Estrutura do Projeto: <code>biscoitoAppMobile/ │ ├── assets/ # Imagens e ícones ├── components/ # Componentes reutilizáveis (se houver) ├── App.js # Ponto principal do aplicativo ├── app.json # Configurações do Expo ├── package.json # Dependências e scripts └── README.md # Este arquivo</code>
-💡 Ideias Futuras: 🚀 Adicionar animações ao abrir o biscoito. 📜 Implementar banco de dados para frases personalizadas. 🌓 Suporte a temas (modo claro/escuro).
-👤 Autor: <b>Thomas Adrian Soler Nilsson</b> 🔗 <a href="https://github.com/Thomas-Adrian-Soler-Nilsson">GitHub</a> 🌐 <a href="https://biscoito-app-mobile-skof.vercel.app/?classId=81da0d39-74da-49e2-9f37-faf10b905f16&assignmentId=234c869c-d002-4ebf-9cc2-d78b6d163e29&submissionId=fb2b6946-4a47-bfa9-69e5-6467000491be">Deploy na Vercel</a>
-🧾 Licença: Este projeto é de código aberto e está sob a licença <b>MIT</b>. Sinta-se à vontade para usar, modificar e contribuir! 💙
+
+<p align="center">
+  Um aplicativo móvel desenvolvido em <b>React Native</b> e <b>Expo</b> que gera frases aleatórias — como um verdadeiro <b>biscoito da sorte digital!</b>  
+  <br>
+  Cada toque no botão revela uma nova mensagem inspiradora ou divertida ✨
+</p>
+
+---
+
+## 🌐 Demonstração Online
+
+Acesse a versão online do app clicando no link abaixo:  
+👉 **[BiscoitoAppMobile - Deploy na Vercel](https://biscoito-app-mobile-skof.vercel.app/?classId=81da0d39-74da-49e2-9f37-faf10b905f16&assignmentId=234c869c-d002-4ebf-9cc2-d78b6d163e29&submissionId=fb2b6946-4a47-bfa9-69e5-6467000491be)**
+
+---
+
+## ✨ Funcionalidades
+
+✅ Exibe frases aleatórias de “biscoito da sorte”.  
+✅ Interface simples, moderna e intuitiva.  
+✅ Atualização instantânea da frase ao clicar no botão.  
+✅ Desenvolvido com **React Native** e **Expo**, compatível com Android e iOS.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|-------------|------------|
+| ⚛️ **React Native** | Framework para desenvolvimento mobile multiplataforma |
+| 📱 **Expo** | Plataforma para facilitar o build e testes de apps React Native |
+| 💻 **JavaScript / JSX** | Linguagem e sintaxe base do projeto |
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+### 1️⃣ Clone o repositório
+```bash
+git clone https://github.com/Thomas-Adrian-Soler-Nilsson/biscoitoAppMobile.git
