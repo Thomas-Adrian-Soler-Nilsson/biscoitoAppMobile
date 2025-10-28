@@ -47,13 +47,13 @@ cd biscoitoAppMobile
 # 3️⃣ Instale as dependências
 ```bash
 npm install
-# ou
+ ou
 yarn install
 ```
 # 4️⃣ Execute o app com o Expo
 ```bash
 npx expo start
-# 📲 Escaneie o QR Code com o aplicativo Expo Go no seu celular para rodar o app.
+ 📲 Escaneie o QR Code com o aplicativo Expo Go no seu celular para rodar o app.
 ````
 ## 📁 Estrutura do Projeto
 
