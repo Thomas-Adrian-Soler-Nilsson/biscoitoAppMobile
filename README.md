@@ -11,7 +11,7 @@
 ## 🌐 Demonstração Online
 
 Acesse a versão online do app clicando no link abaixo:  
-👉 **[BiscoitoAppMobile - Deploy na Vercel](https://biscoito-app-mobile-skof.vercel.app/?classId=81da0d39-74da-49e2-9f37-faf10b905f16&assignmentId=234c869c-d002-4ebf-9cc2-d78b6d163e29&submissionId=fb2b6946-4a47-bfa9-69e5-6467000491be)**
+👉 **[BiscoitoAppMobile - Deploy na Vercel](https://biscoito-app-mobile-skof.vercel.app/?classId=81da0d39-74da-49e2-9f37-faf10b905f16&assignmentId=234c869c-d002-4ebf-9cc2-d78b6d163e29&submissionId=f[...)**
 
 ---
 
@@ -36,6 +36,35 @@ Acesse a versão online do app clicando no link abaixo:
 
 ## 🚀 Como Executar o Projeto Localmente
 
-### 1️⃣ Clone o repositório
 ```bash
+# 1️⃣ Clone o repositório
 git clone https://github.com/Thomas-Adrian-Soler-Nilsson/biscoitoAppMobile.git
+
+# 2️⃣ Acesse a pasta do projeto
+cd biscoitoAppMobile
+
+# 3️⃣ Instale as dependências
+npm install
+# ou
+yarn install
+
+# 4️⃣ Execute o app com o Expo
+npx expo start
+
+# 📲 Escaneie o QR Code com o aplicativo Expo Go no seu celular para rodar o app.
+```
+
+---
+
+## 📁 Estrutura do Projeto
+
+```text
+biscoitoAppMobile/
+│
+├── assets/           # Imagens e ícones
+├── components/       # Componentes reutilizáveis (se houver)
+├── App.js            # Ponto principal do aplicativo
+├── app.json          # Configurações do Expo
+├── package.json      # Dependências e scripts
+└── README.md         # Este arquivo
+```
