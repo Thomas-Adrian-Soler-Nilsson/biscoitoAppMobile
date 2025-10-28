@@ -36,26 +36,29 @@ Acesse a versão online do app clicando no link abaixo:
 
 ## 🚀 Como Executar o Projeto Localmente
 
-```bash
 # 1️⃣ Clone o repositório
+```bash
 git clone https://github.com/Thomas-Adrian-Soler-Nilsson/biscoitoAppMobile.git
-
+````
 # 2️⃣ Acesse a pasta do projeto
+```bash
 cd biscoitoAppMobile
-
+````
 # 3️⃣ Instale as dependências
+```bash
 npm install
 # ou
 yarn install
-
+```
 # 4️⃣ Execute o app com o Expo
+```bash
 npx expo start
-
+```
 # 📲 Escaneie o QR Code com o aplicativo Expo Go no seu celular para rodar o app.
 ```
 
 ---
-
+````
 ## 📁 Estrutura do Projeto
 
 ```text
