@@ -54,7 +54,7 @@ yarn install
 ```bash
 npx expo start
 # 📲 Escaneie o QR Code com o aplicativo Expo Go no seu celular para rodar o app.
-
+````
 ## 📁 Estrutura do Projeto
 
 ```text
