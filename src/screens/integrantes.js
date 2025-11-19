@@ -14,13 +14,28 @@ export default function Integrantes({ navigation }) {
         <Text style={estilos.titulo}>👥 Integrantes do App</Text>
 
         <Text style={estilos.texto}>
-          Aplicativo desenvolvido com base em conhecimentos de HTML, CSS, JavaScript e React Native por:
+          Aplicativo desenvolvido utilizando conhecimentos de HTML, CSS, JavaScript e React Native por:
         </Text>
 
-        <View style={estilos.card}>
-          <Image source={require('../assets/thomas.jpg')} style={estilos.foto} />
-          <Text style={estilos.nome}>Thomas Adrian</Text>
-          <Text style={estilos.cargo}>Desenvolvedor</Text>
+        {/* GRID DE INTEGRANTES */}
+        <View style={estilos.grid}>
+          <View style={estilos.card}>
+            <Image source={require('../assets/thomas.jpg')} style={estilos.foto} />
+            <Text style={estilos.nome}>Thomas Adrian</Text>
+            <Text style={estilos.cargo}>Desenvolvedor</Text>
+          </View>
+
+          <View style={estilos.card}>
+            <Image source={require('../assets/robinho.jpg')} style={estilos.foto} />
+            <Text style={estilos.nome}>Robinson Melo</Text>
+            <Text style={estilos.cargo}>Colaborador</Text>
+          </View>
+
+          <View style={estilos.card}>
+            <Image source={require('../assets/samuel.jpg')} style={estilos.foto} />
+            <Text style={estilos.nome}>Samuel Amante</Text>
+            <Text style={estilos.cargo}>Colaborador</Text>
+          </View>
         </View>
 
         <TouchableOpacity
@@ -54,8 +69,8 @@ const estilos = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
     paddingHorizontal: 20,
+    paddingTop: 50,
   },
   titulo: {
     fontSize: 26,
@@ -73,11 +88,20 @@ const estilos = StyleSheet.create({
     lineHeight: 22,
     marginBottom: 25,
   },
+
+  /* ---------- GRID ---------- */
+  grid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  },
+
   card: {
+    width: 150,
     alignItems: 'center',
     backgroundColor: 'rgba(165, 18, 34, 0.8)',
     borderRadius: 20,
-    padding: 20,
+    padding: 15,
     borderWidth: 1,
     borderColor: '#FFD700',
     shadowColor: '#FFD700',
@@ -85,11 +109,11 @@ const estilos = StyleSheet.create({
     shadowOpacity: 0.4,
     shadowRadius: 6,
     elevation: 6,
-    marginBottom: 30,
+    margin: 10,
   },
   foto: {
-    width: 120,
-    height: 120,
+    width: 110,
+    height: 110,
     borderRadius: 60,
     borderWidth: 2,
     borderColor: '#FFD700',
@@ -98,14 +122,17 @@ const estilos = StyleSheet.create({
   nome: {
     color: '#FFD700',
     fontWeight: 'bold',
-    fontSize: 18,
+    fontSize: 16,
     marginTop: 5,
+    textAlign: 'center',
   },
   cargo: {
     color: '#F5E6CC',
     fontStyle: 'italic',
     fontSize: 14,
+    textAlign: 'center',
   },
+
   botao: {
     backgroundColor: '#A51222',
     borderRadius: 30,
@@ -118,6 +145,7 @@ const estilos = StyleSheet.create({
     shadowOpacity: 0.5,
     shadowRadius: 6,
     elevation: 5,
+    marginTop: 25,
   },
   btnTexto: {
     color: '#FFD700',

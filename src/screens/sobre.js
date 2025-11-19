@@ -14,10 +14,11 @@ export default function Sobre({ navigation }) {
         <Text style={estilos.titulo}>📜 Sobre o App</Text>
 
         <Text style={estilos.texto}>
-          Este aplicativo de <Text style={{ color: '#FFD700', fontWeight: 'bold' }}>Biscoito da Sorte</Text> 
+          Este aplicativo de <Text style={{ color: '#FFD700', fontWeight: 'bold' }}>Sorteio do Exodia</Text> 
           {' '}foi desenvolvido em <Text style={{ color: '#FFD700', fontWeight: 'bold' }}>React Native</Text> 
           {' '}utilizando conceitos de componentes, estados e navegação entre telas.{"\n\n"}
-          Ele gera frases inspiradoras baseadas na sabedoria oriental, simbolizando o equilíbrio, a paciência e o autoconhecimento. 🐉
+          Ele permite sortear aleatoriamente as partes do lendário 
+          {' '}<Text style={{ color: '#FFD700', fontWeight: 'bold' }}>Exodia, o Proibido</Text>, trazendo uma experiência divertida inspirada no universo de Yu-Gi-Oh! 🔥🃏
         </Text>
 
         <TouchableOpacity
